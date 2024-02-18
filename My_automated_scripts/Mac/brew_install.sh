@@ -1,3 +1,6 @@
+# I run this same script on my i7 iMac i7 machine and Mac Pro Laptop 
+# if your running Linux on them the script myappv5.sh will work on that as well.
+
 brew install sdl12-compat
 brew install sdl2
 brew install sdl2_gfx
