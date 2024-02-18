@@ -1,13 +1,7 @@
-Just the apps I add to my default install. I really should be using Ajile.
+Just the apps I add to my default install. 
 
-The Linuxapps.sh installs all the SDL2 and Allegro Libraries along with other apps I use all the time. 
+The MYAPPSv5.sh installs all the packages and tools I use I install Linux on a new machine.
 
-It also sets up other things. You can remove what you do want and only install what you needs.
+The Linuxapps.sh installs all the SDL2 and Allegro Libraries. 
 
-The SConstruct file always resides in the base if the build directory. Make a src, release and include folder, put your src, inlude in the appropriate directories and place all your sound and pics in release and them just run scons.
-
-You make have to change your code to point to SDL2/SDL.h instead of just SDL.h and all other SDL libraries
-
-When compiling with addition includes make sure to check the SConstrct file as it has a section to include libraries on compile.
-
-
+The up.sh updates the system then cleans things up.
