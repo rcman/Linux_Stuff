@@ -1,6 +1,5 @@
 # Version 4.6
-
-
+# This is run on my Linux Mint system that's why I add snap the way I do.
 
 # All this stuff is for me to build with scons and c++
 sudo apt install build-essential -y
