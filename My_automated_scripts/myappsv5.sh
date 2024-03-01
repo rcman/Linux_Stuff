@@ -73,7 +73,7 @@ sudo apt update
 sudo apt install snapd -y
 sudo apt install bashtop -y
 sudo chmod +x ~/linuxapps/*.sh
-
+sudo cp anacrontab /etc/anacrontab
 #setup Xscreensaver
 
 gsettings set org.cinnamon.desktop.session idle-delay 0 && gsettings set org.cinnamon.desktop.screensaver idle-activation-enabled false && gsettings set org.cinnamon.desktop.screensaver lock-enabled false
