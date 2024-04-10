@@ -25,7 +25,8 @@ sudo apt install libsdl2-ttf-dev -y
 sudo apt install cloud-guest-utils -y
 sudo apt install tree -y
 sudo apt install update-motd -y
-
+mkdir ~/linixapps
+cp up.sh ~/linuxapps/
 
 # this is the end of Dev Stuff
 echo "Installing all Dev tools SDL1, SDL2, Allegro4, Allegro5, Scons"
