@@ -80,9 +80,9 @@ sudo chmod +x ~/linuxapps/*.sh
 sudo cp anacrontab /etc/anacrontab
 #setup Xscreensaver
 
-gsettings set org.cinnamon.desktop.session idle-delay 0 && gsettings set org.cinnamon.desktop.screensaver idle-activation-enabled false && gsettings set org.cinnamon.desktop.screensaver lock-enabled false
-sudo apt install xscreensaver xscreensaver-data-extra xscreensaver-gl xscreensaver-gl-extra
-sudo ln -sf /usr/bin/xscreensaver-command /usr/bin/cinnamon-screensaver-command
+#gsettings set org.cinnamon.desktop.session idle-delay 0 && gsettings set org.cinnamon.desktop.screensaver idle-activation-enabled false && gsettings set org.cinnamon.desktop.screensaver lock-enabled false
+#sudo apt install xscreensaver xscreensaver-data-extra xscreensaver-gl xscreensaver-gl-extra
+#sudo ln -sf /usr/bin/xscreensaver-command /usr/bin/cinnamon-screensaver-command
 
 echo "Make sure you setup startup apps. Name: xscreensaver    command: xscreensaver     Comment: whatever you want     STart Delay: 0    amd Save"
 
